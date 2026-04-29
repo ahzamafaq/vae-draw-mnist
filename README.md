@@ -24,13 +24,16 @@ The key research questions are:
 
 ## Results Summary
 
-| Model | T | Test NELBO ↓ |
-|-------|---|------------|
-| VAE | — | ~100 |
-| DRAW (no attn) | 10 | ~87 |
-| DRAW (attn) | 1 | ~96 |
-| DRAW (attn) | 5 | ~88 |
-| DRAW (attn) | 10 | ~83 |
+| Model | T | Epochs | Test NELBO ↓ |
+|-------|---|--------|-------------|
+| VAE | — | 30 | 102.9 |
+| **DRAW (no attn)** | **10** | **30** | **93.8** |
+| DRAW (attn) | 1 | 30 | 134.5 |
+| DRAW (attn) | 5 | 30 | 105.0 |
+| DRAW (attn) | 10 | 30 | 105.5 |
+| DRAW (attn) | 10 | 60 | 99.7 |
+
+Lower is better. The no-attention DRAW is the best model at a matched 30-epoch budget. The attention variant at 30 epochs actually trails the VAE — it only pulls ahead after 60 epochs. The T-ablation (T=1,5,10 with attention) confirms that more recurrent steps help, though gains flatten out past T=5 within this training budget.
 
 Full results, training curves, reconstruction comparisons, and T-ablations are in the [compiled report](report/main.pdf).
 
