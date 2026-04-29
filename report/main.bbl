@@ -1,0 +1,77 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Goodfellow et~al.(2014)Goodfellow, Pouget-Abadie, Mirza, Xu,
+  Warde-Farley, Ozair, Courville, and Bengio]{goodfellow2014gan}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial nets.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2014.
+\newblock URL \url{https://arxiv.org/abs/1406.2661}.
+
+\bibitem[Gregor et~al.(2015)Gregor, Danihelka, Graves, Rezende, and
+  Wierstra]{gregor2015draw}
+Karol Gregor, Ivo Danihelka, Alex Graves, Danilo~Jimenez Rezende, and Daan
+  Wierstra.
+\newblock {DRAW}: A recurrent neural network for image generation.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, pp.\
+  1462--1471, 2015.
+\newblock URL \url{https://arxiv.org/abs/1502.04623}.
+
+\bibitem[Ho et~al.(2020)Ho, Jain, and Abbeel]{ho2020ddpm}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising diffusion probabilistic models.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.11239}.
+
+\bibitem[Hochreiter \& Schmidhuber(1997)Hochreiter and
+  Schmidhuber]{hochreiter1997lstm}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock \emph{Neural Computation}, 9\penalty0 (8):\penalty0 1735--1780, 1997.
+\newblock URL \url{https://doi.org/10.1162/neco.1997.9.8.1735}.
+
+\bibitem[Jaderberg et~al.(2015)Jaderberg, Simonyan, Zisserman, and
+  Kavukcuoglu]{jaderberg2015spatial}
+Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu.
+\newblock Spatial transformer networks.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1506.02025}.
+
+\bibitem[Kingma \& Ba(2015)Kingma and Ba]{kingma2015adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock {A}dam: A method for stochastic optimization.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1412.6980}.
+
+\bibitem[Kingma \& Welling(2014)Kingma and Welling]{kingma2014vae}
+Diederik~P. Kingma and Max Welling.
+\newblock Auto-encoding variational {B}ayes.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2014.
+\newblock URL \url{https://arxiv.org/abs/1312.6114}.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{lecun1998mnist}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, 1998.
+\newblock URL \url{https://doi.org/10.1109/5.726791}.
+
+\bibitem[Rezende et~al.(2014)Rezende, Mohamed, and
+  Wierstra]{rezende2014stochastic}
+Danilo~Jimenez Rezende, Shakir Mohamed, and Daan Wierstra.
+\newblock Stochastic backpropagation and approximate inference in deep
+  generative models.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2014.
+\newblock URL \url{https://arxiv.org/abs/1401.4082}.
+
+\end{thebibliography}

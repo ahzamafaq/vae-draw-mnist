@@ -1,0 +1,10 @@
+{
+  "model": "vae",
+  "epochs": 30,
+  "params": 652824,
+  "final_train_nelbo": 102.90167415651501,
+  "final_test_nelbo": 102.86284444580077,
+  "best_test_nelbo": 102.86284444580077,
+  "mean_epoch_seconds": 2.595698618888855,
+  "device": "mps"
+}

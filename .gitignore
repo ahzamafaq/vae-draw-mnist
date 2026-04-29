@@ -1,0 +1,48 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+.venv/
+venv/
+env/
+.env
+
+# ── PyTorch checkpoints (large binaries – re-generate with train.py) ─────────
+code/outputs/*.pt
+
+# ── MNIST raw data (downloaded automatically by torchvision) ─────────────────
+code/mnist_data/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── LaTeX build artefacts ─────────────────────────────────────────────────────
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+report/*.blg
+# Keep the compiled PDF and .bbl (bibliography)
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── IDE / editors ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Claude / Antigravity internal ─────────────────────────────────────────────
+.claude/

@@ -1,0 +1,11 @@
+{
+  "model": "draw_noattn",
+  "T": 10,
+  "epochs": 30,
+  "params": 2613028,
+  "final_train_nelbo": 93.04794647347214,
+  "final_test_nelbo": 93.81682624511718,
+  "best_test_nelbo": 93.81682624511718,
+  "mean_epoch_seconds": 8.037464030583699,
+  "device": "mps"
+}
